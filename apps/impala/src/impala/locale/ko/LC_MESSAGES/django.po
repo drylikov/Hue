@@ -1,0 +1,51 @@
+# Korean translations for Hue.
+# Copyright (C) 2012 Cloudera
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-05-29 17:10-0700\n"
+"PO-Revision-Date: 2012-07-30 18:50-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ko <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: src/impala/conf.py:29
+msgid "Host of the Impala Server."
+msgstr "Impala 서버의 호스트입니다."
+
+#: src/impala/conf.py:34
+msgid "Port of the Impala Server."
+msgstr "Impala 서버의 포트입니다."
+
+#: src/impala/conf.py:40
+msgid "Kerberos principal name for Impala. Typically 'impala/hostname.foo.com'."
+msgstr "Impala의 Kerberos 원칙 이름입니다. 일반적으로 'impala/hostname.foo.com'입니다."
+
+#: src/impala/conf.py:46
+msgid "Turn on/off impersonation mechanism when talking to Impala."
+msgstr "Impala와 통신할 때 가장 메커니즘을 켭니다/끕니다."
+
+#: src/impala/conf.py:52
+msgid "Number of initial rows of a resultset to ask Impala to cache in order to support re-fetching them for downloading them. Set to 0 for disabling the option and backward compatibility."
+msgstr "첫 행 다운로드를 위한 다시 가져오기를 지원하기 위해 Impala에 캐시하도록 요청하는 resultset의 첫 행 수입니다. 이 옵션 및 이전 버전과의 호환성을 사용하지 않으려면 0으로 설정합니다."
+
+#: src/impala/conf.py:62
+msgid "Timeout in seconds for Thrift calls."
+msgstr "Thrift 호출의 제한 시간(단위: 초)입니다."
+
+#: src/impala/conf.py:66
+msgid "Hue will try to close the Impala query when the user leaves the editor page. This will free all the query resources in Impala, but also make its results inaccessible."
+msgstr "사용자가 편집기 페이지를 나가면 Hue가 Impala 쿼리를 닫습니다. 이렇게 하면 Impala의 모든 쿼리 리소스가 비워지지만 해당 결과에 액세스할 수 없게 됩니다."
+
+#: src/impala/conf.py:86
+msgid "No available Impalad to send queries to."
+msgstr "쿼리를 보낼 사용 가능한 Impalad가 없습니다."
+

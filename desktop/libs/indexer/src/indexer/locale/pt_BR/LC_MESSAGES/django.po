@@ -1,0 +1,412 @@
+# Portuguese (Brazil) translations for Hue.
+# Copyright (C) 2012 Cloudera
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSÃO DO PROJETO\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-05-29 17:10-0700\n"
+"PO-Revision-Date: 2012-07-30 18:50-0700\n"
+"Last-Translator: NOME COMPLETO <EMAIL@ADDRESS>\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8 bits\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: src/indexer/api.py:50
+msgid "Must be a superuser to access this module."
+msgstr "É necessário ser um superusuário para acessar este módulo."
+
+#: src/indexer/api.py:58 src/indexer/api.py:132 src/indexer/api.py:181
+#: src/indexer/api.py:210 src/indexer/api.py:254 src/indexer/api.py:275
+msgid "POST request required."
+msgstr "Solicitação POST necessária."
+
+#: src/indexer/api.py:91
+msgid "Could not detect any fields."
+msgstr "Não é possível detectar qualquer campo."
+
+#: src/indexer/api.py:100
+#, python-format
+msgid "Type %s not supported."
+msgstr "Tipo %s incompatível."
+
+#: src/indexer/api.py:105
+#, python-format
+msgid "Source type %s not supported."
+msgstr "Tipod e origem %s não compatível."
+
+#: src/indexer/api.py:168 src/indexer/api.py:200
+msgid "Collection created!"
+msgstr "Coleção criada!"
+
+#: src/indexer/api.py:173 src/indexer/api.py:202
+msgid "Collection missing."
+msgstr "Coleção ausente."
+
+#: src/indexer/api.py:217
+msgid "No collections to remove."
+msgstr "Não há coleções a serem excluídas."
+
+#: src/indexer/api.py:229
+msgid "Collections removed!"
+msgstr "Coleção excluída!"
+
+#: src/indexer/api.py:237
+msgid "GET request required."
+msgstr "Solicitação GET necessária."
+
+#: src/indexer/api.py:261
+msgid "No collection to update."
+msgstr "Não há coleções a serem atualizadas."
+
+#: src/indexer/api.py:268
+msgid "Collection updated!"
+msgstr "Coleção atualizada!"
+
+#: src/indexer/api.py:293
+msgid "Index imported!"
+msgstr "Índice importado!"
+
+#: src/indexer/api.py:295
+#, python-format
+msgid "Unsupported source %s"
+msgstr "Origem %s incompatível"
+
+#: src/indexer/conf.py:50
+msgid "Batch indexer path in HDFS."
+msgstr "Caminho do indexador em lote no HDFS."
+
+#: src/indexer/conf.py:56
+msgid "The contents of this directory will be copied over to the solrctl host to its temporary directory."
+msgstr "O conteúdo desse diretório será copiado para o host solrctl em seu diretório temporário."
+
+#: src/indexer/conf.py:63
+msgid "Location of the solrctl binary."
+msgstr "Localização do Solrctl binário."
+
+#: src/indexer/conf.py:69
+msgid "Location of the solr home."
+msgstr "Localização do Solr inicial."
+
+#: src/indexer/conf.py:75
+msgid "Zookeeper ensemble."
+msgstr "Grupo Zookeeper."
+
+#: src/indexer/controller.py:70
+#, python-format
+msgid "Could not fetch fields for collection %s."
+msgstr "Não é possível obter campos para a coleção %s."
+
+#: src/indexer/controller.py:71
+#, python-format
+msgid "Could not fetch fields for collection %s. See logs for more info."
+msgstr "Não é possível obter campos para a coleção %s.Consulte os registros para mais informações."
+
+#: src/indexer/controller.py:76
+#, python-format
+msgid "Could not fetch unique key for collection %s."
+msgstr "Não é possível obter uma chave exclusiva para a coleção %s."
+
+#: src/indexer/controller.py:77
+#, python-format
+msgid "Could not fetch unique key for collection %s. See logs for more info."
+msgstr "Não é possível obter uma chave exclusiva para a coleção %s. Consulte os registros para mais informações."
+
+#: src/indexer/controller.py:104 src/indexer/controller.py:136
+msgid "Could not create instance directory. Check error logs for more info."
+msgstr "Não é possível criar um diretório de exemplo. Verifique os registros de erros para obter mais informações."
+
+#: src/indexer/controller.py:118 src/indexer/controller.py:138
+msgid "Could not create collection. Check error logs for more info."
+msgstr "Não é possível criar uma coleção. Verifique os registros de erros para obter mais informações."
+
+#: src/indexer/controller.py:166
+msgid "File size is too large to handle!"
+msgstr "O tamanho do arquivo é muito grande para manipulação!"
+
+#: src/indexer/controller.py:181
+#, python-format
+msgid "Could not update index. Unknown type %s"
+msgstr "Não é possível atualizar o índice. Tipo desconhecido %s"
+
+#: src/indexer/controller.py:184 src/indexer/controller.py:213
+msgid "Could not update index. Check error logs for more info."
+msgstr "Não é possível atualizar o índice. Verifique os registros de erros para obter mais informações."
+
+#: src/indexer/controller.py:186 src/indexer/controller.py:217
+#, python-format
+msgid "Could not update index. Indexing strategy %s not supported."
+msgstr "Não é possível atualizar o índice.A estratégia de indexação %s não é compatível."
+
+#: src/indexer/controller.py:215
+msgid "Could not update index. Could not fetch any data from Hive."
+msgstr "Não é possível atualizar o índice. Não é possível obter quaisquer dados do Hive."
+
+#: src/indexer/submission.py:191
+msgid "Unsaved script"
+msgstr "Script não salvo"
+
+#: src/indexer/utils.py:91
+#, python-format
+msgid "%s is not a boolean value"
+msgstr "%s não é um valor booleano"
+
+#: src/indexer/views.py:39
+msgid "A POST request is required."
+msgstr "É necessária uma solicitação POST."
+
+#: src/indexer/management/commands/indexer_setup.py:44
+msgid "Installing twitter collection"
+msgstr "Instalação da coleção do Twitter"
+
+#: src/indexer/management/commands/indexer_setup.py:51
+msgid "Twitter collection successfully installed"
+msgstr "Coleção do Twitter instalada com êxito"
+
+#: src/indexer/management/commands/indexer_setup.py:53
+msgid "Installing yelp collection"
+msgstr "Instalação da coleção Yelp"
+
+#: src/indexer/management/commands/indexer_setup.py:60
+msgid "Yelp collection successfully installed"
+msgstr "Coleção Yelp instalada com êxito"
+
+#: src/indexer/management/commands/indexer_setup.py:62
+msgid "Installing jobs collection"
+msgstr "Instalação da coleção de jobs"
+
+#: src/indexer/management/commands/indexer_setup.py:69
+msgid "Jobs collection successfully installed"
+msgstr "Coleção de jobs instalada com êxito"
+
+#: src/indexer/management/commands/indexer_setup.py:71
+msgid "Installing logs collection"
+msgstr "Instalação da coleção de registros"
+
+#: src/indexer/management/commands/indexer_setup.py:81
+msgid "Logs collection successfully installed"
+msgstr "Coleção de registros instalada com êxito"
+
+#: src/indexer/templates/collections.mako:25
+msgid "Collection Manager"
+msgstr "Gerenciador de coleções"
+
+#: src/indexer/templates/collections.mako:61
+#: src/indexer/templates/collections.mako:512
+msgid "Collections"
+msgstr "Coleções"
+
+#: src/indexer/templates/collections.mako:62
+msgid "Dashboards"
+msgstr "Painéis"
+
+#: src/indexer/templates/collections.mako:65
+msgid "Solr Indexer"
+msgstr "Indexador Solr"
+
+#: src/indexer/templates/collections.mako:88
+msgid "Choose a file"
+msgstr "Escolha um arquivo"
+
+#: src/indexer/templates/collections.mako:102
+msgid "Delete collections"
+msgstr "Excluir coleções"
+
+#: src/indexer/templates/collections.mako:110
+#: src/indexer/templates/collections.mako:123
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/indexer/templates/collections.mako:111
+#: src/indexer/templates/collections.mako:124
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: src/indexer/templates/collections.mako:119
+msgid "Delete collection "
+msgstr "Excluir coleção "
+
+#: src/indexer/templates/collections.mako:156
+msgid "Filter collections..."
+msgstr "Coleções do filtro..."
+
+#: src/indexer/templates/collections.mako:158
+msgid "Delete the selected collections"
+msgstr "Excluir coleções selecionadas"
+
+#: src/indexer/templates/collections.mako:159
+#: src/indexer/templates/collections.mako:342
+msgid "Delete"
+msgstr "Excluir"
+
+#: src/indexer/templates/collections.mako:162
+msgid "Create"
+msgstr "Criar"
+
+#: src/indexer/templates/collections.mako:173
+msgid "There are currently no collections defined."
+msgstr "No momento não há coleções definidas."
+
+#: src/indexer/templates/collections.mako:173
+msgid "Click here to add"
+msgstr "Clique aqui para adicionar"
+
+#: src/indexer/templates/collections.mako:173
+msgid "one or more."
+msgstr "um ou mais."
+
+#: src/indexer/templates/collections.mako:184
+#: src/indexer/templates/collections.mako:229
+#: src/indexer/templates/collections.mako:291
+#: src/indexer/templates/collections.mako:354
+msgid "Name"
+msgstr "Nome"
+
+#: src/indexer/templates/collections.mako:214
+#: src/indexer/templates/collections.mako:409
+msgid "Previous"
+msgstr "Anterior"
+
+#: src/indexer/templates/collections.mako:215
+#: src/indexer/templates/collections.mako:410
+msgid "Next"
+msgstr "Próximo"
+
+#: src/indexer/templates/collections.mako:216
+#: src/indexer/templates/collections.mako:411
+msgid "Finish"
+msgstr "Concluir"
+
+#: src/indexer/templates/collections.mako:226
+msgid "Pick a name and a CSV or Tab separated file with header to index from HDFS"
+msgstr "Escolha um nome e um arquivo CSV ou Tab separado com com cabeçalho para indexar do HDFS"
+
+#: src/indexer/templates/collections.mako:231
+msgid "Name of collection"
+msgstr "Nome da coleção"
+
+#: src/indexer/templates/collections.mako:236
+#: src/indexer/templates/collections.mako:423
+msgid "Files"
+msgstr "Arquivos"
+
+#: src/indexer/templates/collections.mako:243
+#: src/indexer/templates/collections.mako:430
+msgid "Source type"
+msgstr "Tipo de origem"
+
+#: src/indexer/templates/collections.mako:252
+#: src/indexer/templates/collections.mako:439
+msgid "Format of the selected file to index"
+msgstr "Formato do arquivo para indexar"
+
+#: src/indexer/templates/collections.mako:255
+#: src/indexer/templates/collections.mako:442
+msgid "Separator"
+msgstr "Separador"
+
+#: src/indexer/templates/collections.mako:262
+#: src/indexer/templates/collections.mako:449
+msgid "Quote character"
+msgstr "Caractere com aspas"
+
+#: src/indexer/templates/collections.mako:271
+msgid "Morphlines config name"
+msgstr "Nome da configuração Morphlines"
+
+#: src/indexer/templates/collections.mako:279
+msgid "Morphlines config expression"
+msgstr "Expressão de configuração Morphlines"
+
+#: src/indexer/templates/collections.mako:292
+#: src/indexer/templates/collections.mako:355
+msgid "Type"
+msgstr "Tipo"
+
+#: src/indexer/templates/collections.mako:293
+#: src/indexer/templates/collections.mako:357
+msgid "Required"
+msgstr "Obrigatório"
+
+#: src/indexer/templates/collections.mako:294
+#: src/indexer/templates/collections.mako:358
+msgid "Indexed"
+msgstr "Indexado"
+
+#: src/indexer/templates/collections.mako:295
+#: src/indexer/templates/collections.mako:359
+msgid "Stored"
+msgstr "Armazenado"
+
+#: src/indexer/templates/collections.mako:296
+msgid "Unique Key"
+msgstr "Chave exclusiva"
+
+#: src/indexer/templates/collections.mako:329
+#: src/indexer/templates/collections.mako:388
+msgid "Add"
+msgstr "Adicionar"
+
+#: src/indexer/templates/collections.mako:339
+msgid "Actions"
+msgstr "Ações"
+
+#: src/indexer/templates/collections.mako:340
+msgid "Search"
+msgstr "Pesquisar"
+
+#: src/indexer/templates/collections.mako:341
+msgid "Index file"
+msgstr "Indexar arquivo"
+
+#: src/indexer/templates/collections.mako:356
+msgid "Unique key field"
+msgstr "Campo de chave exclusiva"
+
+#: src/indexer/templates/collections.mako:392
+msgid "Update"
+msgstr "Atualizar"
+
+#: src/indexer/templates/collections.mako:420
+msgid "CSV or TSV file to index"
+msgstr "Arquivo CSV ou TSV para indexar"
+
+#: src/indexer/templates/collections.mako:485
+msgid "Name is missing"
+msgstr "Nome ausente"
+
+#: src/indexer/templates/collections.mako:486
+#: src/indexer/templates/collections.mako:528
+msgid "File path is missing"
+msgstr "Caminho do arquivo ausente"
+
+#: src/indexer/templates/collections.mako:503
+msgid "Field name is missing"
+msgstr "Nome do campo ausente"
+
+#: src/indexer/templates/collections.mako:504
+msgid "Field type is missing"
+msgstr "Tipo do campo ausente"
+
+#: src/indexer/templates/collections.mako:513
+msgid "Upload data"
+msgstr "Dados carregados"
+
+#: src/indexer/templates/macros.mako:197
+#, python-format
+msgid "Retweeted %s times"
+msgstr "Retweetado %s vezes"
+
+#: src/indexer/templates/macros.mako:207
+msgid "Reply"
+msgstr "Responder"
+
+#: src/indexer/templates/macros.mako:213
+msgid "Retweet"
+msgstr "Retweetar"
+

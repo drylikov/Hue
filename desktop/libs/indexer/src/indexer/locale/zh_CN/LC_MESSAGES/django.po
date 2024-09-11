@@ -1,0 +1,412 @@
+# Chinese (China) translations for Hue.
+# Copyright (C) 2012 Cloudera
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 项目版本\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-05-29 17:10-0700\n"
+"PO-Revision-Date: 2012-07-30 18:50-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8 位\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: src/indexer/api.py:50
+msgid "Must be a superuser to access this module."
+msgstr "必须是超级用户才可访问该模块。"
+
+#: src/indexer/api.py:58 src/indexer/api.py:132 src/indexer/api.py:181
+#: src/indexer/api.py:210 src/indexer/api.py:254 src/indexer/api.py:275
+msgid "POST request required."
+msgstr "需要 POST 请求。"
+
+#: src/indexer/api.py:91
+msgid "Could not detect any fields."
+msgstr "无法检测任何字段。"
+
+#: src/indexer/api.py:100
+#, python-format
+msgid "Type %s not supported."
+msgstr "类型 %s 不受支持。"
+
+#: src/indexer/api.py:105
+#, python-format
+msgid "Source type %s not supported."
+msgstr "源类型 %s 不受支持。"
+
+#: src/indexer/api.py:168 src/indexer/api.py:200
+msgid "Collection created!"
+msgstr "已创建集合！"
+
+#: src/indexer/api.py:173 src/indexer/api.py:202
+msgid "Collection missing."
+msgstr "集合缺失。"
+
+#: src/indexer/api.py:217
+msgid "No collections to remove."
+msgstr "没有要删除的集合。"
+
+#: src/indexer/api.py:229
+msgid "Collections removed!"
+msgstr "集合已删除！"
+
+#: src/indexer/api.py:237
+msgid "GET request required."
+msgstr "需要 GET 请求。"
+
+#: src/indexer/api.py:261
+msgid "No collection to update."
+msgstr "没有要更新的集合。"
+
+#: src/indexer/api.py:268
+msgid "Collection updated!"
+msgstr "集合已更新！"
+
+#: src/indexer/api.py:293
+msgid "Index imported!"
+msgstr "索引已导入！"
+
+#: src/indexer/api.py:295
+#, python-format
+msgid "Unsupported source %s"
+msgstr "不受支持的源 %s"
+
+#: src/indexer/conf.py:50
+msgid "Batch indexer path in HDFS."
+msgstr "HDFS 中的批次索引器路径。"
+
+#: src/indexer/conf.py:56
+msgid "The contents of this directory will be copied over to the solrctl host to its temporary directory."
+msgstr "该目录的内容将被复制到 solrctl 主机中的临时目录中。"
+
+#: src/indexer/conf.py:63
+msgid "Location of the solrctl binary."
+msgstr "Solrctl 二进制的位置。"
+
+#: src/indexer/conf.py:69
+msgid "Location of the solr home."
+msgstr "Solr 主目录的位置。"
+
+#: src/indexer/conf.py:75
+msgid "Zookeeper ensemble."
+msgstr "Zookeeper 总体。"
+
+#: src/indexer/controller.py:70
+#, python-format
+msgid "Could not fetch fields for collection %s."
+msgstr "无法获取集合 %s 的字段。"
+
+#: src/indexer/controller.py:71
+#, python-format
+msgid "Could not fetch fields for collection %s. See logs for more info."
+msgstr "无法获取集合 %s 的字段。请参见日志以获取更多信息。"
+
+#: src/indexer/controller.py:76
+#, python-format
+msgid "Could not fetch unique key for collection %s."
+msgstr "无法获取集合 %s 的唯一密钥。"
+
+#: src/indexer/controller.py:77
+#, python-format
+msgid "Could not fetch unique key for collection %s. See logs for more info."
+msgstr "无法获取集合 %s 的唯一密钥。请参见日志以获取更多信息。"
+
+#: src/indexer/controller.py:104 src/indexer/controller.py:136
+msgid "Could not create instance directory. Check error logs for more info."
+msgstr "无法创建实例目录。请查看错误日志以获取更多信息。"
+
+#: src/indexer/controller.py:118 src/indexer/controller.py:138
+msgid "Could not create collection. Check error logs for more info."
+msgstr "无法创建集合。检查错误日志以获取更多信息。"
+
+#: src/indexer/controller.py:166
+msgid "File size is too large to handle!"
+msgstr "文件过大，无法处理！"
+
+#: src/indexer/controller.py:181
+#, python-format
+msgid "Could not update index. Unknown type %s"
+msgstr "无法更新索引。未知类型 %s"
+
+#: src/indexer/controller.py:184 src/indexer/controller.py:213
+msgid "Could not update index. Check error logs for more info."
+msgstr "无法更新索引。请检查错误日志以获取更多信息。"
+
+#: src/indexer/controller.py:186 src/indexer/controller.py:217
+#, python-format
+msgid "Could not update index. Indexing strategy %s not supported."
+msgstr "无法更新索引。索引策略 %s 不受支持。"
+
+#: src/indexer/controller.py:215
+msgid "Could not update index. Could not fetch any data from Hive."
+msgstr "无法更新索引。无法从 Hive 中获取任何数据。"
+
+#: src/indexer/submission.py:191
+msgid "Unsaved script"
+msgstr "未保存的脚本"
+
+#: src/indexer/utils.py:91
+#, python-format
+msgid "%s is not a boolean value"
+msgstr "%s 不是布尔值"
+
+#: src/indexer/views.py:39
+msgid "A POST request is required."
+msgstr "需要 POST 请求。"
+
+#: src/indexer/management/commands/indexer_setup.py:44
+msgid "Installing twitter collection"
+msgstr "安装 twitter 集合"
+
+#: src/indexer/management/commands/indexer_setup.py:51
+msgid "Twitter collection successfully installed"
+msgstr "Twitter 集合已成功安装"
+
+#: src/indexer/management/commands/indexer_setup.py:53
+msgid "Installing yelp collection"
+msgstr "安装 yelp 集合"
+
+#: src/indexer/management/commands/indexer_setup.py:60
+msgid "Yelp collection successfully installed"
+msgstr "Yelp 集合已成功安装"
+
+#: src/indexer/management/commands/indexer_setup.py:62
+msgid "Installing jobs collection"
+msgstr "安装作业集合"
+
+#: src/indexer/management/commands/indexer_setup.py:69
+msgid "Jobs collection successfully installed"
+msgstr "作业集合已成功安装"
+
+#: src/indexer/management/commands/indexer_setup.py:71
+msgid "Installing logs collection"
+msgstr "安装日志集合"
+
+#: src/indexer/management/commands/indexer_setup.py:81
+msgid "Logs collection successfully installed"
+msgstr "日志集合已成功安装"
+
+#: src/indexer/templates/collections.mako:25
+msgid "Collection Manager"
+msgstr "集合管理器"
+
+#: src/indexer/templates/collections.mako:61
+#: src/indexer/templates/collections.mako:512
+msgid "Collections"
+msgstr "集合"
+
+#: src/indexer/templates/collections.mako:62
+msgid "Dashboards"
+msgstr "仪表板"
+
+#: src/indexer/templates/collections.mako:65
+msgid "Solr Indexer"
+msgstr "Solr 索引器"
+
+#: src/indexer/templates/collections.mako:88
+msgid "Choose a file"
+msgstr "选择文件"
+
+#: src/indexer/templates/collections.mako:102
+msgid "Delete collections"
+msgstr "删除集合"
+
+#: src/indexer/templates/collections.mako:110
+#: src/indexer/templates/collections.mako:123
+msgid "Cancel"
+msgstr "取消"
+
+#: src/indexer/templates/collections.mako:111
+#: src/indexer/templates/collections.mako:124
+msgid "Confirm"
+msgstr "确认"
+
+#: src/indexer/templates/collections.mako:119
+msgid "Delete collection "
+msgstr "删除集合 "
+
+#: src/indexer/templates/collections.mako:156
+msgid "Filter collections..."
+msgstr "筛选器集合..."
+
+#: src/indexer/templates/collections.mako:158
+msgid "Delete the selected collections"
+msgstr "删除选定的集合"
+
+#: src/indexer/templates/collections.mako:159
+#: src/indexer/templates/collections.mako:342
+msgid "Delete"
+msgstr "删除"
+
+#: src/indexer/templates/collections.mako:162
+msgid "Create"
+msgstr "创建"
+
+#: src/indexer/templates/collections.mako:173
+msgid "There are currently no collections defined."
+msgstr "当前没有已定义的集合。"
+
+#: src/indexer/templates/collections.mako:173
+msgid "Click here to add"
+msgstr "单击此处添加"
+
+#: src/indexer/templates/collections.mako:173
+msgid "one or more."
+msgstr "一个或多个。"
+
+#: src/indexer/templates/collections.mako:184
+#: src/indexer/templates/collections.mako:229
+#: src/indexer/templates/collections.mako:291
+#: src/indexer/templates/collections.mako:354
+msgid "Name"
+msgstr "名称"
+
+#: src/indexer/templates/collections.mako:214
+#: src/indexer/templates/collections.mako:409
+msgid "Previous"
+msgstr "上一页"
+
+#: src/indexer/templates/collections.mako:215
+#: src/indexer/templates/collections.mako:410
+msgid "Next"
+msgstr "下一页"
+
+#: src/indexer/templates/collections.mako:216
+#: src/indexer/templates/collections.mako:411
+msgid "Finish"
+msgstr "完成"
+
+#: src/indexer/templates/collections.mako:226
+msgid "Pick a name and a CSV or Tab separated file with header to index from HDFS"
+msgstr "从 HDFS 选择名称和带标题的 CSV 或 Tab 分离文件用于索引"
+
+#: src/indexer/templates/collections.mako:231
+msgid "Name of collection"
+msgstr "集合的名称"
+
+#: src/indexer/templates/collections.mako:236
+#: src/indexer/templates/collections.mako:423
+msgid "Files"
+msgstr "文件"
+
+#: src/indexer/templates/collections.mako:243
+#: src/indexer/templates/collections.mako:430
+msgid "Source type"
+msgstr "源类型"
+
+#: src/indexer/templates/collections.mako:252
+#: src/indexer/templates/collections.mako:439
+msgid "Format of the selected file to index"
+msgstr "用于索引的选定文件的格式"
+
+#: src/indexer/templates/collections.mako:255
+#: src/indexer/templates/collections.mako:442
+msgid "Separator"
+msgstr "分隔符"
+
+#: src/indexer/templates/collections.mako:262
+#: src/indexer/templates/collections.mako:449
+msgid "Quote character"
+msgstr "引证字符"
+
+#: src/indexer/templates/collections.mako:271
+msgid "Morphlines config name"
+msgstr "Morphlines 配置名称"
+
+#: src/indexer/templates/collections.mako:279
+msgid "Morphlines config expression"
+msgstr "Morphlines 配置表达式"
+
+#: src/indexer/templates/collections.mako:292
+#: src/indexer/templates/collections.mako:355
+msgid "Type"
+msgstr "类型"
+
+#: src/indexer/templates/collections.mako:293
+#: src/indexer/templates/collections.mako:357
+msgid "Required"
+msgstr "必要"
+
+#: src/indexer/templates/collections.mako:294
+#: src/indexer/templates/collections.mako:358
+msgid "Indexed"
+msgstr "已索引"
+
+#: src/indexer/templates/collections.mako:295
+#: src/indexer/templates/collections.mako:359
+msgid "Stored"
+msgstr "已存储"
+
+#: src/indexer/templates/collections.mako:296
+msgid "Unique Key"
+msgstr "唯一密钥"
+
+#: src/indexer/templates/collections.mako:329
+#: src/indexer/templates/collections.mako:388
+msgid "Add"
+msgstr "添加"
+
+#: src/indexer/templates/collections.mako:339
+msgid "Actions"
+msgstr "操作"
+
+#: src/indexer/templates/collections.mako:340
+msgid "Search"
+msgstr "搜索"
+
+#: src/indexer/templates/collections.mako:341
+msgid "Index file"
+msgstr "索引文件"
+
+#: src/indexer/templates/collections.mako:356
+msgid "Unique key field"
+msgstr "唯一密钥字段"
+
+#: src/indexer/templates/collections.mako:392
+msgid "Update"
+msgstr "更新"
+
+#: src/indexer/templates/collections.mako:420
+msgid "CSV or TSV file to index"
+msgstr "要索引的 CSV 或 TSV 文件"
+
+#: src/indexer/templates/collections.mako:485
+msgid "Name is missing"
+msgstr "名称缺失"
+
+#: src/indexer/templates/collections.mako:486
+#: src/indexer/templates/collections.mako:528
+msgid "File path is missing"
+msgstr "文件路径缺失"
+
+#: src/indexer/templates/collections.mako:503
+msgid "Field name is missing"
+msgstr "文件名称缺失"
+
+#: src/indexer/templates/collections.mako:504
+msgid "Field type is missing"
+msgstr "文件类型缺失"
+
+#: src/indexer/templates/collections.mako:513
+msgid "Upload data"
+msgstr "上载数据"
+
+#: src/indexer/templates/macros.mako:197
+#, python-format
+msgid "Retweeted %s times"
+msgstr "已转推 %s 次"
+
+#: src/indexer/templates/macros.mako:207
+msgid "Reply"
+msgstr "回复"
+
+#: src/indexer/templates/macros.mako:213
+msgid "Retweet"
+msgstr "转推"
+

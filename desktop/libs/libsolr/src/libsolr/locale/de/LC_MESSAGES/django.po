@@ -1,0 +1,26 @@
+# German translations for Hue.
+# Copyright (C) 2012 Cloudera
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJEKTVERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-05-29 17:10-0700\n"
+"PO-Revision-Date: 2012-07-30 18:50-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: src/libsolr/api.py:79 src/libsolr/api.py:90 src/libsolr/api.py:103
+#: src/libsolr/api.py:123 src/libsolr/api.py:141 src/libsolr/api.py:150
+#: src/libsolr/api.py:159 src/libsolr/api.py:169 src/libsolr/api.py:179
+#: src/libsolr/api.py:192 src/libsolr/api.py:202 src/libsolr/api.py:227
+msgid "Error while accessing Solr"
+msgstr "Fehler beim Zugriff auf Solr"
+

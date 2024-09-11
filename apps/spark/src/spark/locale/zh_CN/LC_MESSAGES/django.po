@@ -1,0 +1,346 @@
+# Chinese (China) translations for Hue.
+# Copyright (C) 2012 Cloudera
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 项目版本\n"
+"Report-Msgid-Bugs-To: 电子邮件地址\n"
+"POT-Creation-Date: 2014-05-29 17:11-0700\n"
+"PO-Revision-Date: 2012-07-30 18:50-0700\n"
+"Last-Translator: 全名 <电子邮件地址>\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: src/spark/api.py:61 src/spark/views.py:109
+msgid "Requires a POST"
+msgstr "需要 POST"
+
+#: src/spark/api.py:84
+msgid "Requires a DELETE"
+msgstr "需要 DELETE"
+
+#: src/spark/api.py:120 src/spark/api.py:175
+msgid "A POST request is required."
+msgstr "需要 POST 请求。"
+
+#: src/spark/api.py:162
+#, python-format
+msgid "There was an error with your query: %s"
+msgstr "您的查询存在错误：%s"
+
+#: src/spark/api.py:205
+msgid "A GET request is required."
+msgstr "需要 GET 请求。"
+
+#: src/spark/api.py:234
+msgid "Missing application jar list."
+msgstr "缺少应用程序 jar 列表。"
+
+#: src/spark/conf.py:28
+msgid "URL of the Spark Job Server."
+msgstr "Spark 作业服务器的 URL。"
+
+#: src/spark/conf.py:56
+msgid "The app won't work without a running Job Server"
+msgstr "Job Server 不运行的情况下应用程序不工作"
+
+#: src/spark/decorators.py:34
+msgid "An error happened with the Spark Server"
+msgstr "Spark 服务器发生错误"
+
+#: src/spark/forms.py:25
+msgid "Script parameters"
+msgstr "脚本参数"
+
+#: src/spark/forms.py:27 src/spark/templates/editor.mako:80
+#: src/spark/templates/list_jobs.mako:36
+msgid "Class path"
+msgstr "类路径"
+
+#: src/spark/views.py:94
+msgid "Delete context(s)?"
+msgstr "删除上下文？"
+
+#: src/spark/templates/common.mako:38
+msgid "Spark Igniter"
+msgstr "Spark Igniter"
+
+#: src/spark/templates/common.mako:41
+msgid "Editor"
+msgstr "编辑器"
+
+#: src/spark/templates/common.mako:43
+#: src/spark/templates/list_applications.mako:23
+#: src/spark/templates/list_applications.mako:29
+msgid "Applications"
+msgstr "应用程序"
+
+#: src/spark/templates/common.mako:45
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: src/spark/templates/common.mako:46 src/spark/templates/list_contexts.mako:29
+msgid "Contexts"
+msgstr "上下文"
+
+#: src/spark/templates/common.mako:47
+msgid "Uploads"
+msgstr "上传"
+
+#: src/spark/templates/common.mako:59 src/spark/templates/editor.mako:59
+#: src/spark/templates/list_contexts.mako:41
+msgid "Create context"
+msgstr "创建上下文"
+
+#: src/spark/templates/common.mako:64 src/spark/templates/editor.mako:133
+#: src/spark/templates/editor.mako:221
+#: src/spark/templates/list_applications.mako:45
+#: src/spark/templates/list_contexts.mako:48
+msgid "Name"
+msgstr "名称"
+
+#: src/spark/templates/common.mako:70
+msgid "Num cpu cores"
+msgstr "CPU 核心数量"
+
+#: src/spark/templates/common.mako:76
+msgid "Memory per node"
+msgstr "每个节点的内存"
+
+#: src/spark/templates/common.mako:84 src/spark/templates/common.mako:114
+#: src/spark/templates/editor.mako:235
+#: src/spark/templates/list_contexts.mako:85
+msgid "Cancel"
+msgstr "取消"
+
+#: src/spark/templates/common.mako:85
+msgid "Create"
+msgstr "创建"
+
+#: src/spark/templates/common.mako:96
+msgid "Upload application"
+msgstr "上传应用程序"
+
+#: src/spark/templates/common.mako:99
+msgid "One class of the jar should implement SparkJob."
+msgstr "Jar 的其中一个类应实施 Spark 作业。"
+
+#: src/spark/templates/common.mako:101
+msgid "Local jar file"
+msgstr "本地 jar 文件"
+
+#: src/spark/templates/common.mako:107 src/spark/templates/editor.mako:64
+msgid "App name"
+msgstr "应用程序名称"
+
+#: src/spark/templates/common.mako:115
+msgid "Upload"
+msgstr "上传"
+
+#: src/spark/templates/editor.mako:23
+msgid "Query"
+msgstr "查询"
+
+#: src/spark/templates/editor.mako:39 src/spark/templates/editor.mako:487
+msgid "Application name"
+msgstr "应用程序名称"
+
+#: src/spark/templates/editor.mako:48
+msgid "Application description"
+msgstr "应用程序描述"
+
+#: src/spark/templates/editor.mako:58
+#: src/spark/templates/list_applications.mako:36
+msgid "Upload app"
+msgstr "上传应用程序"
+
+#: src/spark/templates/editor.mako:67
+msgid "Missing, add one?"
+msgstr "缺少应用程序，添加一个？"
+
+#: src/spark/templates/editor.mako:84 src/spark/templates/list_contexts.mako:23
+#: src/spark/templates/list_jobs.mako:37
+msgid "Context"
+msgstr "上下文"
+
+#: src/spark/templates/editor.mako:87
+msgid "Automatic"
+msgstr "自动"
+
+#: src/spark/templates/editor.mako:93
+msgid "Create one?"
+msgstr "创建一个？"
+
+#: src/spark/templates/editor.mako:116
+msgid "Parameters"
+msgstr "参数"
+
+#: src/spark/templates/editor.mako:122
+msgid "Your application has the following error(s):"
+msgstr "您的应用程序存在以下错误："
+
+#: src/spark/templates/editor.mako:128
+msgid "No parameters defined yet."
+msgstr "尚未定义参数。"
+
+#: src/spark/templates/editor.mako:134 src/spark/templates/editor.mako:177
+msgid "Value"
+msgstr "值"
+
+#: src/spark/templates/editor.mako:148
+msgid "Delete"
+msgstr "删除"
+
+#: src/spark/templates/editor.mako:154
+msgid "Add"
+msgstr "添加"
+
+#: src/spark/templates/editor.mako:160
+msgid "Executing..."
+msgstr "正在执行..."
+
+#: src/spark/templates/editor.mako:161
+msgid "Execute"
+msgstr "执行"
+
+#: src/spark/templates/editor.mako:163 src/spark/templates/editor.mako:236
+msgid "Save"
+msgstr "保存"
+
+#: src/spark/templates/editor.mako:164
+msgid "Save as..."
+msgstr "另存为..."
+
+#: src/spark/templates/editor.mako:165
+msgid "or create a"
+msgstr "或创建一个"
+
+#: src/spark/templates/editor.mako:165
+msgid "New application"
+msgstr "新建应用程序"
+
+#: src/spark/templates/editor.mako:167
+msgid "Download"
+msgstr "下载"
+
+#: src/spark/templates/editor.mako:176
+msgid "Key"
+msgstr "键"
+
+#: src/spark/templates/editor.mako:189
+msgid "The server returned no results."
+msgstr "服务器未返回结果。"
+
+#: src/spark/templates/editor.mako:216
+msgid "Save your query"
+msgstr "保存您的查询"
+
+#: src/spark/templates/editor.mako:227
+msgid "Description"
+msgstr "描述"
+
+#: src/spark/templates/editor.mako:243
+msgid "Choose a file"
+msgstr "选择文件"
+
+#: src/spark/templates/editor.mako:379
+msgid "Did you know?"
+msgstr "您知道吗？"
+
+#: src/spark/templates/editor.mako:481
+msgid "This field is required."
+msgstr "此字段为必填字段。"
+
+#: src/spark/templates/editor.mako:494
+msgid "Empty description"
+msgstr "空描述"
+
+#: src/spark/templates/editor.mako:500
+msgid "Application saved successfully!"
+msgstr "应用程序已成功保存！"
+
+#: src/spark/templates/editor.mako:528
+#: src/spark/templates/list_applications.mako:93
+#: src/spark/templates/list_contexts.mako:131
+#: src/spark/templates/list_jobs.mako:96
+msgid "No data available"
+msgstr "没有可用数据"
+
+#: src/spark/templates/editor.mako:529
+#: src/spark/templates/list_applications.mako:94
+#: src/spark/templates/list_contexts.mako:132
+#: src/spark/templates/list_jobs.mako:97
+msgid "No matching records"
+msgstr "没有匹配记录"
+
+#: src/spark/templates/editor.mako:580
+msgid "Server error occured: "
+msgstr "出现服务器错误： "
+
+#: src/spark/templates/editor.mako:583
+msgid "Unmanageable server error occured: "
+msgstr "出现无法管理的服务器错误： "
+
+#: src/spark/templates/list_applications.mako:33
+#: src/spark/templates/list_contexts.mako:33
+msgid "Search for name"
+msgstr "搜索名称"
+
+#: src/spark/templates/list_applications.mako:46
+msgid "Upload time"
+msgstr "上传时间"
+
+#: src/spark/templates/list_applications.mako:53
+msgid "Click to open and execute"
+msgstr "单击以打开并执行"
+
+#: src/spark/templates/list_contexts.mako:36
+msgid "Delete forever"
+msgstr "永久删除"
+
+#: src/spark/templates/list_contexts.mako:37
+msgid "Delete selected"
+msgstr "删除所选项"
+
+#: src/spark/templates/list_contexts.mako:82
+msgid "Confirm action"
+msgstr "确认操作"
+
+#: src/spark/templates/list_contexts.mako:86
+msgid "Yes"
+msgstr "是"
+
+#: src/spark/templates/list_contexts.mako:208
+msgid "Delete the selected contexts?"
+msgstr "删除所选上下文？"
+
+#: src/spark/templates/list_jobs.mako:23 src/spark/templates/list_jobs.mako:29
+msgid "Jobs"
+msgstr "作业"
+
+#: src/spark/templates/list_jobs.mako:34
+msgid "Status"
+msgstr "状态"
+
+#: src/spark/templates/list_jobs.mako:35
+msgid "Job id"
+msgstr "作业 ID"
+
+#: src/spark/templates/list_jobs.mako:38
+msgid "Start time"
+msgstr "开始时间"
+
+#: src/spark/templates/list_jobs.mako:39
+msgid "Duration"
+msgstr "持续时间"
+
+#: src/spark/templates/list_jobs.mako:51
+msgid "Click to open"
+msgstr "单击以打开"
+
