@@ -34,7 +34,7 @@ Getting Started
 ===============
 To build and get the development server running::
 
-    $ git clone http://github.com/cloudera/hue.git
+    $ git clone http://github.com/drylikov/hue.git
     $ cd hue
     $ make apps
     $ build/env/bin/hue runserver
@@ -157,17 +157,3 @@ Hue would not be possible without:
    * Knockout.js (http://knockoutjs.com/)
    * jQuery (http://jquery.com/)
    * Bootstrap (http://getbootstrap.com/)
-
-
-Community
-=========
-   * User group: http://groups.google.com/a/cloudera.org/group/hue-user
-   * Jira: https://issues.cloudera.org/browse/HUE
-   * Reviews: https://review.cloudera.org/dashboard/?view=to-group&group=hue (repo 'hue-rw')
-
-
-License
-=======
-Apache License, Version 2.0
-http://www.apache.org/licenses/LICENSE-2.0
-
